@@ -2,6 +2,8 @@
 
 #include <QApplication>
 
+//Se configura el logo del juego
+
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
