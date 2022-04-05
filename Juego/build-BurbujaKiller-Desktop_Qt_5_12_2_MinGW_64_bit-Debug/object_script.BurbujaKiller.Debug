@@ -1,0 +1,10 @@
+debug/disparo.o
+debug/main.o
+debug/mainwindow.o
+debug/muro.o
+debug/nivel.o
+debug/pelota.o
+debug/personaje.o
+debug/pua.o
+debug/senoidal.o
+debug/moc_mainwindow.o
