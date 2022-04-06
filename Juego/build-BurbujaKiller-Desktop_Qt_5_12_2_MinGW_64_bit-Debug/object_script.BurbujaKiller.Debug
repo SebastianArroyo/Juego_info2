@@ -7,4 +7,8 @@ debug/pelota.o
 debug/personaje.o
 debug/pua.o
 debug/senoidal.o
+debug/sesion.o
+debug/vida.o
+debug/puntaje.o
+debug/tiempo_juego.o
 debug/moc_mainwindow.o

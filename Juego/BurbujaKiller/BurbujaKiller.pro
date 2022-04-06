@@ -17,7 +17,11 @@ SOURCES += \
     pelota.cpp \
     personaje.cpp \
     pua.cpp \
-    senoidal.cpp
+    senoidal.cpp \
+    sesion.cpp \
+    vida.cpp \
+    puntaje.cpp \
+    tiempo_juego.cpp
 
 HEADERS += \
     disparo.h \
@@ -27,7 +31,11 @@ HEADERS += \
     pelota.h \
     personaje.h \
     pua.h \
-    senoidal.h
+    senoidal.h \
+    sesion.h \
+    vida.h \
+    puntaje.h \
+    tiempo_juego.h
 
 FORMS += \
     mainwindow.ui
