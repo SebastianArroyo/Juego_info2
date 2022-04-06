@@ -7,4 +7,8 @@ release/pelota.o
 release/personaje.o
 release/pua.o
 release/senoidal.o
+release/sesion.o
+release/vida.o
+release/puntaje.o
+release/tiempo_juego.o
 release/moc_mainwindow.o
