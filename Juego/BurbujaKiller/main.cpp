@@ -1,13 +1,12 @@
-#include "mainwindow.h"
+#include "sesion.h"
 
 #include <QApplication>
-
-//Se configura el logo del juego
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
+    a.setWindowIcon(QIcon(":/Imagenes/pelota.png"));
+    Sesion w;
     w.show();
     return a.exec();
 }

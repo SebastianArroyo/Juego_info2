@@ -18,10 +18,11 @@ SOURCES += \
     personaje.cpp \
     pua.cpp \
     senoidal.cpp \
-    sesion.cpp \
     vida.cpp \
     puntaje.cpp \
-    tiempo_juego.cpp
+    tiempo_juego.cpp \
+    settingswindow.cpp \
+    sesion.cpp
 
 HEADERS += \
     disparo.h \
@@ -32,15 +33,21 @@ HEADERS += \
     personaje.h \
     pua.h \
     senoidal.h \
-    sesion.h \
     vida.h \
     puntaje.h \
-    tiempo_juego.h
+    tiempo_juego.h \
+    settingswindow.h \
+    sesion.h
 
 FORMS += \
-    mainwindow.ui
+    mainwindow.ui \
+    settingswindow.ui \
+    sesion.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    images.qrc
