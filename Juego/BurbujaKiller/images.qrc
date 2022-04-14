@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Imagenes/pelota.png</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file>Audio/main song.mp3</file>
+    </qresource>
+</RCC>
