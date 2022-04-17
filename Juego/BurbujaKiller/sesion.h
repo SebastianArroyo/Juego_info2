@@ -10,7 +10,7 @@
 #include <QtSql/QSqlQuery>
 #include <QDebug>
 //#include"mainwindow.h"
-//#include "partidas.h"
+#include "partidas.h"
 #include "settingswindow.h"
 
 
@@ -44,7 +44,7 @@ private slots:
 
 private:
     Ui::Sesion *ui;
-    //Partidas *jugar;
+    Partidas *jugar;
     SettingsWindow *controles;
     QString name;
     QString password;

@@ -22,7 +22,9 @@ SOURCES += \
     puntaje.cpp \
     tiempo_juego.cpp \
     settingswindow.cpp \
-    sesion.cpp
+    sesion.cpp \
+    partidas.cpp \
+    hd_nivel.cpp
 
 HEADERS += \
     disparo.h \
@@ -37,12 +39,15 @@ HEADERS += \
     puntaje.h \
     tiempo_juego.h \
     settingswindow.h \
-    sesion.h
+    sesion.h \
+    partidas.h \
+    hd_nivel.h
 
 FORMS += \
     mainwindow.ui \
     settingswindow.ui \
-    sesion.ui
+    sesion.ui \
+    partidas.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
