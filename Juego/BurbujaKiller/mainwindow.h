@@ -16,9 +16,9 @@
 #include "senoidal.h"
 #include "pua.h"
 #include "hd_nivel.h"
-#include "endgame.h"
+//#include "endgame.h"
 #include <QMessageBox>
-#include <QMediaPlayer>
+//#include <QMediaPlayer>
 
 
 QT_BEGIN_NAMESPACE
@@ -93,9 +93,9 @@ private:
     QList<personaje*>jugadores;
     personaje *principal;
     personaje *segundo_plyr;
-    EndGame *pasar;
+//    EndGame *pasar;
 
-    QMediaPlayer *song;
+    //QMediaPlayer *song;
     int tpn;
     int score_pasar;
 
