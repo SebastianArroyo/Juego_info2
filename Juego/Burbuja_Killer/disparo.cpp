@@ -1,8 +1,5 @@
 #include "disparo.h"
 
-//Simulará el disparo con movimieto parabólico con gravedad 0. El disparo se efetuará desde
-// la parte inferior hasta la parte superior de la escena. Sin movimieto en el eje x, sólo en y
-
 float disparo::getPX() const
 {
     return PX;
@@ -73,5 +70,6 @@ void disparo::actualizar(float v_limit)
     VY=VY+AY*dt;
     setPos(PX,v_limit-PY);
 }
+
 
 

@@ -17,7 +17,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>HOOK HIT</string>
+   <string>Burbuja Killer</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QFrame" name="frame_2">
@@ -42,14 +42,16 @@
      <property name="geometry">
       <rect>
        <x>220</x>
-       <y>30</y>
+       <y>40</y>
        <width>311</width>
-       <height>121</height>
+       <height>81</height>
       </rect>
      </property>
      <property name="font">
       <font>
+       <family>Segoe Script</family>
        <pointsize>26</pointsize>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
@@ -128,8 +130,8 @@
          </brush>
         </colorrole>
         <colorrole role="PlaceholderText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
            <red>254</red>
            <green>254</green>
            <blue>254</blue>
@@ -193,8 +195,8 @@
          </brush>
         </colorrole>
         <colorrole role="PlaceholderText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
            <red>254</red>
            <green>254</green>
            <blue>254</blue>
@@ -258,8 +260,8 @@
          </brush>
         </colorrole>
         <colorrole role="PlaceholderText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
            <red>254</red>
            <green>254</green>
            <blue>254</blue>
@@ -364,8 +366,8 @@ color: #fefefe;</string>
          </brush>
         </colorrole>
         <colorrole role="PlaceholderText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
            <red>254</red>
            <green>254</green>
            <blue>254</blue>
@@ -429,8 +431,8 @@ color: #fefefe;</string>
          </brush>
         </colorrole>
         <colorrole role="PlaceholderText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
            <red>254</red>
            <green>254</green>
            <blue>254</blue>
@@ -494,8 +496,8 @@ color: #fefefe;</string>
          </brush>
         </colorrole>
         <colorrole role="PlaceholderText">
-         <brush brushstyle="SolidPattern">
-          <color alpha="255">
+         <brush brushstyle="NoBrush">
+          <color alpha="128">
            <red>254</red>
            <green>254</green>
            <blue>254</blue>
@@ -639,7 +641,7 @@ Color: #fefefe;</string>
       <rect>
        <x>130</x>
        <y>360</y>
-       <width>201</width>
+       <width>161</width>
        <height>31</height>
       </rect>
      </property>
@@ -684,7 +686,9 @@ radius-background-color: rgb(51, 51, 51);</string>
      </property>
      <property name="font">
       <font>
+       <family>MV Boli</family>
        <pointsize>12</pointsize>
+       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>

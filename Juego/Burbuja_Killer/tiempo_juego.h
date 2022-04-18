@@ -11,7 +11,7 @@
 class tiempo_juego:public QGraphicsTextItem
 {
 public:
-    tiempo_juego(QGraphicsItem * parent = 0);
+    tiempo_juego(QGraphicsItem * parent = 0);    
     void increase();
     void reset();
     void reset_neg();
