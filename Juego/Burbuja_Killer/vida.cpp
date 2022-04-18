@@ -1,9 +1,6 @@
 #include "vida.h"
 #include <QFont>
 
-//En esta clase se tendran los metodos correspondientes a la vida como incrementarla o decrementarla
-//de acuerdo a la dinamica del juego.
-
 vida::vida(QGraphicsItem *parent): QGraphicsTextItem(parent)
 {
     vidaT = 10;
@@ -34,4 +31,3 @@ void vida::setVidaT(int value)
     vidaT = value;
     setPlainText(QString("Vidas: ")+ QString::number(vidaT));
 }
-

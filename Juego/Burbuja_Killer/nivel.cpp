@@ -1,7 +1,3 @@
-
-// En esta clase se programarán las colisiones de los objetos, por ende necesitamos otras clases en esta.
-// Además, sabrá en que momento finaliza el nivel.
-
 #include "nivel.h"
 
 nivel::nivel(QList<pelota *> balls_,QList<muro *> floors_,QList<senoidal*>globos_,QList<pua*>puas_,QGraphicsScene *scene, float v_limit)
@@ -17,7 +13,7 @@ nivel::nivel(QList<pelota *> balls_,QList<muro *> floors_,QList<senoidal*>globos
 nivel::~nivel()
 {
     balls.clear();
-    floors.clear();
+    floors.clear();    
     globos.clear();
     puas.clear();
 //    qDebug()<<"borre el nivel";

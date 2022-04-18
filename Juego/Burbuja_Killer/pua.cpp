@@ -1,7 +1,3 @@
-
-// Se ubica este objeto en la pate inferior de la escena de tal forma que sea un obstaculo para
-// el personaje. Si el personaje colisiona con la pua, este le descontará una vida.
-
 #include "pua.h"
 
 pua::pua(float posx, float posy, float ancho, float alto)

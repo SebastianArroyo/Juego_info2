@@ -26,7 +26,7 @@ private:
     float e;//coef de restitucion
     float V;//vector de velocidad
     float dt;//var del tiempo
-    float escala;
+    float escala;    
     int con=0;
     float VD;
     bool golpe;
