@@ -9,7 +9,7 @@
 #include <QtSql/QSqlDatabase>
 #include <QtSql/QSqlQuery>
 #include <QDebug>
-//#include"mainwindow.h"
+#include"mainwindow.h"
 #include "partidas.h"
 #include "settingswindow.h"
 

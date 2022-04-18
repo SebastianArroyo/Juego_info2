@@ -1,9 +1,33 @@
-#include "pua.h"
 
 // Se ubica este objeto en la pate inferior de la escena de tal forma que sea un obstaculo para
 // el personaje. Si el personaje colisiona con la pua, este le descontará una vida.
 
-pua::pua()
-{
+#include "pua.h"
 
+pua::pua(float posx, float posy, float ancho, float alto)
+{
+    PX=posx;
+    PY=posy;
+    Ancho=ancho;
+    Alto=alto;
+    R=1;
+}
+
+QRectF pua::boundingRect() const
+{
+    return QRectF(-1*R,-1*R,Ancho,Alto);
+}
+
+void pua::paint(QPainter *painter, const QStyleOptionGraphicsItem *option, QWidget *widget)
+{
+//    painter->setBrush(Qt::gray);
+//    painter->drawRect(boundingRect());
+    QPixmap pixmap;
+    pixmap.load(":/Imagenes/puas.png");
+    painter->drawPixmap(boundingRect(),pixmap,pixmap.rect());
+}
+
+void pua::posicionar(float v_limit)
+{
+    setPos(PX,v_limit-PY);
 }
