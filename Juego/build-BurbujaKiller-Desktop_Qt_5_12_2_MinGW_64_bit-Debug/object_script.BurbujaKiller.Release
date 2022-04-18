@@ -14,9 +14,11 @@ release/settingswindow.o
 release/sesion.o
 release/partidas.o
 release/hd_nivel.o
+release/endgame.o
 release/qrc_images.o
 release/moc_mainwindow.o
 release/moc_nivel.o
 release/moc_settingswindow.o
 release/moc_sesion.o
 release/moc_partidas.o
+release/moc_endgame.o

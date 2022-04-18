@@ -14,9 +14,11 @@ debug/settingswindow.o
 debug/sesion.o
 debug/partidas.o
 debug/hd_nivel.o
+debug/endgame.o
 debug/qrc_images.o
 debug/moc_mainwindow.o
 debug/moc_nivel.o
 debug/moc_settingswindow.o
 debug/moc_sesion.o
 debug/moc_partidas.o
+debug/moc_endgame.o

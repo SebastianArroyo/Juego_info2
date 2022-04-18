@@ -16,7 +16,7 @@
 #include "senoidal.h"
 #include "pua.h"
 #include "hd_nivel.h"
-//#include "endgame.h"
+#include "endgame.h"
 #include <QMessageBox>
 //#include <QMediaPlayer>
 

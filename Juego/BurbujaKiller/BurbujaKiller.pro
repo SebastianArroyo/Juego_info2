@@ -24,7 +24,8 @@ SOURCES += \
     settingswindow.cpp \
     sesion.cpp \
     partidas.cpp \
-    hd_nivel.cpp
+    hd_nivel.cpp \
+    endgame.cpp
 
 HEADERS += \
     disparo.h \
@@ -41,13 +42,15 @@ HEADERS += \
     settingswindow.h \
     sesion.h \
     partidas.h \
-    hd_nivel.h
+    hd_nivel.h \
+    endgame.h
 
 FORMS += \
     mainwindow.ui \
     settingswindow.ui \
     sesion.ui \
-    partidas.ui
+    partidas.ui \
+    endgame.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
