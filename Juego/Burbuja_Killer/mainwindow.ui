@@ -26,7 +26,6 @@
      <widget class="QPushButton" name="pushButton">
       <property name="font">
        <font>
-        <family>MV Boli</family>
         <pointsize>10</pointsize>
        </font>
       </property>
@@ -41,7 +40,6 @@ color: rgb(0, 0, 0);</string>
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>

@@ -44,17 +44,15 @@
      </property>
      <property name="geometry">
       <rect>
-       <x>50</x>
-       <y>80</y>
-       <width>641</width>
+       <x>-20</x>
+       <y>90</y>
+       <width>761</width>
        <height>81</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>MV Boli</family>
        <pointsize>48</pointsize>
-       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
@@ -78,17 +76,15 @@ font: 48pt &quot;MV Boli&quot;;
      </property>
      <property name="geometry">
       <rect>
-       <x>80</x>
+       <x>30</x>
        <y>10</y>
-       <width>561</width>
+       <width>711</width>
        <height>81</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>MV Boli</family>
        <pointsize>48</pointsize>
-       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
@@ -130,6 +126,15 @@ font: 48pt &quot;MV Boli&quot;;
           </color>
          </brush>
         </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
         <colorrole role="Base">
          <brush brushstyle="SolidPattern">
           <color alpha="255">
@@ -151,6 +156,15 @@ font: 48pt &quot;MV Boli&quot;;
        </active>
        <inactive>
         <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Light">
          <brush brushstyle="SolidPattern">
           <color alpha="255">
            <red>255</red>
@@ -188,6 +202,15 @@ font: 48pt &quot;MV Boli&quot;;
           </color>
          </brush>
         </colorrole>
+        <colorrole role="Light">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
         <colorrole role="Base">
          <brush brushstyle="SolidPattern">
           <color alpha="255">
@@ -211,9 +234,7 @@ font: 48pt &quot;MV Boli&quot;;
      </property>
      <property name="font">
       <font>
-       <family>MV Boli</family>
        <pointsize>14</pointsize>
-       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
@@ -339,7 +360,7 @@ Color: #fefefe;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">Padding: 1px;
-font: 16pt &quot;MV Boli&quot;;
+font: 12pt &quot;MV Boli&quot;;
 Border-radius: 5px;
 Background: #aa0000;
 Color: #fefefe;</string>
@@ -354,17 +375,15 @@ Color: #fefefe;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>120</x>
        <y>10</y>
-       <width>411</width>
+       <width>481</width>
        <height>81</height>
       </rect>
      </property>
      <property name="font">
       <font>
-       <family>MV Boli</family>
        <pointsize>48</pointsize>
-       <weight>50</weight>
        <italic>false</italic>
        <bold>false</bold>
       </font>
@@ -391,9 +410,16 @@ font: 48pt &quot;MV Boli&quot;;
        <height>41</height>
       </rect>
      </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
      <property name="styleSheet">
       <string notr="true">Padding: 1px;
-font: 16pt &quot;MV Boli&quot;;
+font: 12pt &quot;MV Boli&quot;;
 Border-radius: 5px;
 Background: #393;
 Color: #fefefe;</string>
