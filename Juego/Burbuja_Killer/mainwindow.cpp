@@ -49,13 +49,13 @@ MainWindow::MainWindow(QString name,int id_lvl,bool num_pls):ui(new Ui::MainWind
 
 //VIDAS, PUNTAJE Y TIEMPO
     conVidas= new vida();
-    conVidas->setPos(0,-30);
+    conVidas->setPos(0,-38);
     conVidas->setVidaT(8);
     scene->addItem(conVidas);
 
     score = new puntaje();
     //score->setScore(score_in);
-    score->setPos(h_limit-100,-30);//-150
+    score->setPos(h_limit-140,-38);
     scene->addItem(score);
 
     if(id_niv==1)
@@ -88,11 +88,11 @@ MainWindow::MainWindow(QString name,int id_lvl,bool num_pls):ui(new Ui::MainWind
     }
 
     contador_n1= new tiempo_juego();
-    contador_n1->setPos(h_limit/2+100,-30);//-50
+    contador_n1->setPos(h_limit/2+60,-38);//-50
     scene->addItem(contador_n1);
 
     nivel_graf= new hd_nivel();
-    nivel_graf->setPos(h_limit/2-200,-30);
+    nivel_graf->setPos(h_limit/2-240,-38);
     scene->addItem(nivel_graf);
 //+++++++++++++++++++++++++++
     gener_glob2 = new tiempo_juego();
@@ -363,6 +363,10 @@ void MainWindow::keyPressEvent(QKeyEvent *event)
         if((event->key() == Qt::Key_U && b2->getBalas_jugador().size()==0) && b2->getGolpe()==true && b2->isActive())
         {
             b2->disparo_lis(scene,v_limit);
+        }
+        if(event->key()==Qt::Key_Escape)
+        {
+            on_pushButton_clicked();
         }
 
 
